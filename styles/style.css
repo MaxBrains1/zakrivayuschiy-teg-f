@@ -20,11 +20,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-family: var(--main-font);
-  font-variation-settings: var(--card-text-weight);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   min-inline-size: 320px;
   min-block-size: 100dvb;
   background-color: var(--background-color);
