@@ -14,10 +14,10 @@
 
 @keyframes move-arrow {
   0% {
-    transform: translateX(0); /* Начальный сдвиг */
+    transform: translateX(0); 
   }
   100% {
-    transform: translateX(4px); /* Конечный сдвиг на 4 пикселя вправо */
+    transform: translateX(4px); 
   }
 }
 
