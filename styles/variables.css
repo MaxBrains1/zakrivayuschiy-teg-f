@@ -1,1 +1,18 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+  --main-font: "Inter-Variable";
+  --accent-font: "PressStart2P";
+  --card-title-weight: 700;
+  --card-text-weight: 400;
+  --background-color: #fff;
+  --accent-color: #000;
+  --stripe-color: #d3d3d3;
+  --background-gradient-start: #e7e7e7;
+  --background-gradient-end: #1a1a1a;
+  --card-block-size: clamp(20.438rem, 19.535rem + 3.85vw, 23rem);
+  --card-inline-size: clamp(23.438rem, 16.285rem + 30.516vw, 43.75rem);
+  --stroke-color: #fff;
+  --button-hover-color: #fff;
+  --heart-contour-color: #000;
+  --heart-sparks-color: #f00;
+}
