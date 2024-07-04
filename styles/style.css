@@ -47,12 +47,6 @@
     );
 }
 
-@supports (font-variation-settings: normal) {
-  body {
-      font-family: 'Inter-Variable', sans-serif;
-  }
-} 
-
 .header {
   margin: 100px 0;
   font-family: var(--accent-font), fantasy;
