@@ -22,8 +22,7 @@
 }
 
 @keyframes scale-heart {
-  0%,
-  100% {
+  0%,100% {
     transform: scale(1);
   }
   50% {
@@ -90,9 +89,15 @@
   animation: sparkle 0.3s ease-in 0.3s both;
 }
 
-.heart__button.is-liked .heart {
+.like-icon.is-liked .heart {
   animation: scale-heart 0.3s ease-in 0.1s both;
 }
+
+.heart {
+  transition: fill 0.3s linear, transform 0.3s ease-in-out;
+  transform-origin: center;
+}
+
 
 .sparks {
   opacity: 0;
