@@ -232,11 +232,13 @@
   flex-direction: column;
   gap: 26px;
   padding: 25px;
+  line-height: 117%;
 }
 
 .card__text {
   font-size: 18px;
   font-variation-settings: "wght"var(--card-text-weight);
+  line-height: 117%;
 }
 
 .like__buttons {
